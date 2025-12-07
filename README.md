@@ -9,7 +9,8 @@ This component is part of my front-end practice focused on UI interaction, anima
 
 ## 🔗 Live Demo
 
-(Insert your GitHub Pages or Netlify link here)
+https://omidyarahmadi.github.io/profile-menu/
+
 
 ---
 
