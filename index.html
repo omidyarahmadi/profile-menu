@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Dropdown Menu</title>
+
+    <!-- Google Font: Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main class="profile-menu">
+      <header class="profile-menu__header">
+        <!-- Clickable avatar button -->
+        <button
+          class="profile-menu__avatar-btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="profile-menu-panel"
+        >
+          <img
+            src="./assets/images/user-pic.jpg"
+            alt="User profile picture"
+            class="profile-menu__avatar"
+          />
+        </button>
+      </header>
+
+      <!-- Navigation panel -->
+      <nav
+        id="profile-menu-panel"
+        class="profile-menu__panel"
+        aria-hidden="true"
+      >
+        <div class="profile-menu__panel-header">
+          <i class="fa-solid fa-angles-up profile-menu__arrow"></i>
+          <h1 class="profile-menu__title">fronto.ir</h1>
+          <p class="profile-menu__subtitle">Your bridge to the job market</p>
+        </div>
+
+        <ul class="profile-menu__list">
+          <li class="profile-menu__item">
+            <a href="#" class="profile-menu__link">
+              <i class="fa-solid fa-user-gear profile-menu__icon"></i>
+              <span>Account</span>
+            </a>
+          </li>
+
+          <li class="profile-menu__item">
+            <a href="#" class="profile-menu__link">
+              <i class="fa-solid fa-comment-dots profile-menu__icon"></i>
+              <span>My Messages</span>
+            </a>
+          </li>
+
+          <li class="profile-menu__item">
+            <a href="#" class="profile-menu__link">
+              <i class="fa-solid fa-list-check profile-menu__icon"></i>
+              <span>Tickets</span>
+            </a>
+          </li>
+
+          <li class="profile-menu__item">
+            <a href="#" class="profile-menu__link">
+              <i class="fa-solid fa-forward-step profile-menu__icon"></i>
+              <span>My Courses</span>
+            </a>
+          </li>
+
+          <li class="profile-menu__item">
+            <a href="#" class="profile-menu__link">
+              <i class="fa-solid fa-right-from-bracket profile-menu__icon"></i>
+              <span>Logout</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Script -->
+      <script src="./assets/js/script.js"></script>
+    </main>
+  </body>
+</html>
